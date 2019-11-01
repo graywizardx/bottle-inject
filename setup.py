@@ -20,7 +20,7 @@ with open(os.path.join(here, 'bottle_inject.py')) as f:
 
 extra = {
     'install_requires': [
-        'distribute',
+        # 'distribute',
         'bottle>=0.11',
     ],
     'tests_require': [
